@@ -70,7 +70,7 @@
 .navigation {
   background-color: #222f40;
   position: fixed;
-  z-index: 3;
+  z-index: 5;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -444,19 +444,11 @@
 }
 .skills__carousel .react-multiple-carousel__arrow--left {
   margin-left: -1em;
-}
-.skills__carousel .react-multiple-carousel__arrow--left::before {
-  content: url("/img/icons/left-arrow.png");
-  font-size: 1.9em;
-  margin-right: 5px;
+  z-index: 4;
 }
 .skills__carousel .react-multiple-carousel__arrow--right {
   margin-right: -1em;
-}
-.skills__carousel .react-multiple-carousel__arrow--right::before {
-  content: url("/img/icons/right-arrow.png");
-  font-size: 1.9em;
-  margin-left: 5px;
+  z-index: 4;
 }
 @media (max-width: 839px) {
   .skills__carousel {
@@ -481,7 +473,6 @@
   text-align: center;
   margin: 1em 0 1em 0;
   color: #222f40;
-  color: rgba(128, 153, 255, 0.6588235294);
 }
 .portfolio__container {
   width: 100%;
