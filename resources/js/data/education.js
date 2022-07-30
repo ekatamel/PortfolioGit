@@ -30,7 +30,7 @@ const education = [
 
                 date: "May 2022 - July 2022",
                 course_url: "https://codingbootcamp.cz/",
-                // certificate_img: "/img/education/cbp_certificate.png",
+                certificate_img: "/img/education/cbp_certificate.png",
                 // certificate_url:
                 //     "https://www.freecodecamp.org/certification/fccb1833e0c-d1a9-4942-966b-7a7123ad8ee1/responsive-web-design",
             },
@@ -58,7 +58,7 @@ const education = [
                 date: "April, 2022",
                 course_url:
                     "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
-                certificate_img: "/img/education/cbp_certificate.png",
+                certificate_img: "/img/education/freecodecamp_certificate.png",
                 certificate_url:
                     "https://www.freecodecamp.org/certification/fccb1833e0c-d1a9-4942-966b-7a7123ad8ee1/responsive-web-design",
             },

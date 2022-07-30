@@ -378,16 +378,13 @@
     .education {
         &__list {
             font-size: calc(0.4rem + 1vw);
+            display: block;
         }
 
         &__description {
             // margin-top: 0;
             font-size: calc(0.4rem + 1vw);
             // flex-basis: 70px;
-        }
-
-        &__list {
-            display: block;
         }
 
         &__img {
@@ -495,6 +492,14 @@
             &.active {
                 display: block;
             }
+        }
+
+        &__certificate-url {
+            justify-content: center;
+        }
+
+        &__list {
+            display: none;
         }
     }
 
@@ -664,6 +669,18 @@
             display: block;
             width: 500px;
             height: 333px;
+        }
+    }
+}
+
+@media all and (min-width: 1167px) {
+    .education {
+        &__list {
+            display: block;
+        }
+
+        &__certificate-url {
+            justify-content: flex-end;
         }
     }
 }
