@@ -84,6 +84,32 @@ const education = [
         ],
     },
     {
+        organization: "Codeacademy",
+        logo: "/img/education/codeacademy.png",
+        logo_small: "../img/education/codeacademy-small.png",
+        courses: [
+            {
+                course_name: "Learn TypeScript",
+                logo: "",
+                description:
+                    "Online course designed to learn TypeScript as a superset of Javascript that adds types to make the language scale. Course is made up of 6 modules with quizes and projects after each of them.",
+                skills: [
+                    "Types",
+                    "Complex types",
+                    "Type Narrowing",
+                    "Functions",
+                    "Union Types",
+                    "Advanced Object Types",
+                ],
+                date: "August 2022",
+                course_url: "https://www.codecademy.com/learn/learn-typescript",
+                certificate_img: "/img/education/TypeScript-certificate.png",
+                certificate_url:
+                    "https://www.codecademy.com/profiles/ekaterinaMelnichuk9625358601/certificates/56fb1e71303e37b643bb1905f31c8a09",
+            },
+        ],
+    },
+    {
         organization: "Czechitas",
         logo: "/img/education/czechitas.png",
         logo_small: "/img/education/czechitas-small.png",

@@ -1355,14 +1355,6 @@
   .education__list {
     display: none;
   }
-  .portfolio__container {
-    flex-direction: row;
-    justify-content: center;
-    display: flex;
-  }
-  .portfolio__carousel {
-    display: none;
-  }
   .timeline__img {
     display: block;
     width: 400px;
@@ -1476,6 +1468,16 @@
   }
   .education__certificate-url {
     justify-content: flex-end;
+  }
+}
+@media all and (min-width: 1424px) {
+  .portfolio__container {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+  }
+  .portfolio__carousel {
+    display: none;
   }
 }
 html {

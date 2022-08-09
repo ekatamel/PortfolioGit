@@ -6818,6 +6818,20 @@ var education = [{
   // },
   ]
 }, {
+  organization: "Codeacademy",
+  logo: "/img/education/codeacademy.png",
+  logo_small: "../img/education/codeacademy-small.png",
+  courses: [{
+    course_name: "Learn TypeScript",
+    logo: "",
+    description: "Online course designed to learn TypeScript as a superset of Javascript that adds types to make the language scale. Course is made up of 6 modules with quizes and projects after each of them.",
+    skills: ["Types", "Complex types", "Type Narrowing", "Functions", "Union Types", "Advanced Object Types"],
+    date: "August 2022",
+    course_url: "https://www.codecademy.com/learn/learn-typescript",
+    certificate_img: "/img/education/TypeScript-certificate.png",
+    certificate_url: "https://www.codecademy.com/profiles/ekaterinaMelnichuk9625358601/certificates/56fb1e71303e37b643bb1905f31c8a09"
+  }]
+}, {
   organization: "Czechitas",
   logo: "/img/education/czechitas.png",
   logo_small: "/img/education/czechitas-small.png",
@@ -6875,7 +6889,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 var projects = [{
-  name: "Ekaterina's Personal Website",
+  name: "Ekaterina's personal page",
   description: "Personal page summarizing experience, education, skills and current portfolio ",
   tech_stack: "HTML5, CSS3, Sass, JS, React, Laravel, Mailtrap.io",
   page_url: "https://www.ekaterinamelnichuk.com/",
@@ -6887,24 +6901,22 @@ var projects = [{
   name: "Lesbotoč community website",
   description: "Website representing LGBT community with admin interface for content & events administration",
   tech_stack: "HTML5, CSS3, Sass, JS, React, Laravel",
-  page_url: "https://lesbotoc.codeboot.cz/",
+  page_url: "https://lesbotoc.ekaterinamelnichuk.com/",
   source_code: "https://github.com/RuxCavescu/Lesbotoc.git",
   project_img: "/img/projects/lesbotoc.png",
   name_color: "#142566",
   gradient_color: "#8099ffa8",
   status: "/img/icons/wip.png"
-} // {
-//     name: "Vet clinic",
-//     description:
-//         "Pet & owners database serving as source of information to veterinarians",
-//     tech_stack: "HTML5, CSS3, Sass, JS, React, PHP, Larave",
-//     page_url: "https://www.google.com/",
-//     source_code: "www.example.com",
-//     project_img: "/img/projects/example2.webp",
-// name_color: '',
-//     gradient_color: ''
-// },
-];
+}, {
+  name: "Blog website",
+  description: "Website, which allows to read and publish articles and participate in discussions",
+  tech_stack: "HTML5, CSS3, Sass, JS, React, PHP, Laravel",
+  page_url: "https://blog.ekaterinamelnichuk.com/",
+  source_code: "https://github.com/ekatamel/applifting_blog",
+  project_img: "/img/projects/blog.png",
+  name_color: "#007bff",
+  gradient_color: "#007bff31"
+}];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (projects);
 
 /***/ }),

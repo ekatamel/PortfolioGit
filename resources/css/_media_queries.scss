@@ -503,18 +503,6 @@
         }
     }
 
-    .portfolio {
-        &__container {
-            flex-direction: row;
-            justify-content: center;
-            display: flex;
-        }
-
-        &__carousel {
-            display: none;
-        }
-    }
-
     .timeline {
         &__img {
             display: block;
@@ -681,6 +669,20 @@
 
         &__certificate-url {
             justify-content: flex-end;
+        }
+    }
+}
+
+@media all and (min-width: 1424px) {
+    .portfolio {
+        &__container {
+            flex-direction: row;
+            justify-content: center;
+            display: flex;
+        }
+
+        &__carousel {
+            display: none;
         }
     }
 }
